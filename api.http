@@ -1,0 +1,24 @@
+### Get weather data for a specific location
+GET http://127.0.0.1:5000/free/Campinas
+
+
+### Create account
+POST http://127.0.0.1:5000/account
+Content-Type: application/json
+
+{
+  "nome": "marcelo",
+  "email": "marcelo@email.com"
+}
+
+
+### Get account
+GET http://127.0.0.1:5000/account/user/marcelo@email.com
+
+
+### Get weather data for a specific location with account
+GET http://127.0.0.1:5000/weather/Campinas/05ae2080-0248-41e4-b523-60626c03a4b8
+
+
+### Get History
+GET http://127.0.0.1:5000/history/05ae2080-0248-41e4-b523-60626c03a4b8
