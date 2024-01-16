@@ -44,4 +44,6 @@
 
 
 <h2>Test</h2>
+<h3>Rode o comando:</h3>
+<code>docker-compose up --build</code>
 <p>Para usar o api.http no vscode, instale a extenção <code>humao.rest-client</code></p>
