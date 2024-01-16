@@ -39,10 +39,7 @@
       <li>mongodb</li>
       <li>pytest</li>
    </ul>
-
-<h2>Setup</h2>
-
-
+   
 <h2>Setup e Teste</h2>
 <h3>Rode o comando:</h3>
 <code>docker-compose up --build</code>
