@@ -10,25 +10,35 @@
 
 <strong>Consulta livre do clima</strong>
 <p>Onde você pode consulta de forma livre, porém sem historico</p>
-<code>GET http://127.0.0.1:5000/free/:city</code>
+<code>GET http://0.0.0.0:5000/free/:city</code>
+<br/><br/>
 
 <strong>Criação de conta</strong>
 <p>Aqui você pode criar uma conta e consequentemente salvar suas consuktas em um  historico</p>
-<code>POST http://127.0.0.1:5000/account</code>
+<code>POST http://0.0.0.0:5000/account</code>
+<br/><br/>
 
 <strong>Consulta da conta</strong>
 <p>Aqui você pode consulta seu id</p>
-<code>GET http://127.0.0.1:5000/account/user/:email</code>
+<code>GET http://0.0.0.0:5000/account/user/:email</code>
+<br/><br/>
 
 <strong>Consulta do clima com conta</strong>
-<p>Aqui você pode consulta seu id</p>
-<code>GET http://127.0.0.1:5000/weather/:city/:account_id<code>
+<p>Aqui você pode consulta a previsão do clima e cada consulta é salvar no banco</p>
+<code>GET http://0.0.0.0:5000/weather/:city/:account_id</code>
+<br/><br/>
 
 <strong>Histórico de consultas</strong>
-<p>Aqui você pode consulta seu id</p>
-<code>GET http://127.0.0.1:5000/history/:account_id<code>
+<p>Aqui você pode consulta seu historico através do seu id</p>
+<code>GET http://0.0.0.0:5000/history/:account_id</code>
+<br/><br/>
 
 <h2>Stack Tecnológica</h2>
+   <ul>
+      <li>flask</li>
+      <li>mongodb</li>
+      <li>pytest</li>
+   </ul>
 
 <h2>Setup</h2>
 

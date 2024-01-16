@@ -5,6 +5,9 @@ from raizen.database.models import Account, Weather
 
 app = Flask(__name__)
 
+@app.route("/health", methods=['GET'])
+def get_health():
+    return {"msg": "ok"}
 
 @app.route("/free/<city>", methods=['GET'], endpoint='get_weather_free')
 def get_weather_free(city: str):
@@ -49,3 +52,6 @@ def get_weather_account(city: str, account_id: str):
 def get_history(account_id: str):
     weather = Weather()
     return str(weather.get_history(account_id))
+
+if __name__ == "__main__":
+    app.run(debug=True)

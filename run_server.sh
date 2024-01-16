@@ -1,1 +1,1 @@
-flask run
+docker-compose up --build
