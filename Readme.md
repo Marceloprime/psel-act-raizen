@@ -29,7 +29,7 @@
 <br/><br/>
 
 <strong>Histórico de consultas</strong>
-<p>Aqui você pode consulta seu historico através do seu id</p>
+<p>Aqui você pode consulta seu historico através do seu account_id</p>
 <code>GET http://0.0.0.0:5000/history/:account_id</code>
 <br/><br/>
 
@@ -43,7 +43,7 @@
 <h2>Setup</h2>
 
 
-<h2>Test</h2>
+<h2>Setup e Teste</h2>
 <h3>Rode o comando:</h3>
 <code>docker-compose up --build</code>
 <p>Para usar o api.http no vscode, instale a extenção <code>humao.rest-client</code></p>
